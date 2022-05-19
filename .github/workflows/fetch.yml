@@ -35,7 +35,7 @@ jobs:
         target_repo_token: ${{ secrets.SECRET_KEY_SYNC }}
         upstream_sync_branch: main
         upstream_sync_repo: aormsby/Fork-Sync-With-Upstream-action
-        upstream_repo_access_token: ${{ secrets.UPSTREAM_REPO_SECRET }}
+        upstream_repo_access_token: ${{ secrets.SECRET_KEY_SYNC }}
 
         # Set test_mode true to run tests instead of the true action!!
         test_mode: true
